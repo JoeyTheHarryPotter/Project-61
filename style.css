@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-color: background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(2, 125, 164, 1) 0%, rgba(1, 148, 188, 1) 0%, rgba(63, 213, 1, 0.9426605504587156) 0%, rgba(2, 14, 84, 0.9862385321100917) 25%, rgba(123, 2, 2, 0.9495412844036697) 50%, rgba(138, 137, 2, 0.9518348623853211) 75%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
+
+#img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px #F8BBDO;
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#p1 {
+    font-size: 20px;
+    color: white;
+}
+
+.img {
+    text-align: center;
+    width: 200px;
+}
+
+.gif {
+    text-align: center;
+    width: 500px;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    z-index: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.links {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: crimson;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#contacts {
+    background: firebrick;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
